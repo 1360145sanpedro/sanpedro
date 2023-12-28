@@ -1,0 +1,273 @@
+body{
+    font-family: Poppins;
+}
+
+.section1{
+    background-color: #330099;
+    color: #fff;
+    padding: 11px;
+}
+
+.section1 h6{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.section1 i{
+    font-size: 20px;
+    padding: 5px;
+    color: #fff;
+}
+.section4 h3{
+    font-family: poppins;
+    color: red;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.section5{
+    background: linear-gradient(to right, #330099, #1c0252);
+}
+
+.section5 h3{
+    font-family: poppins;
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.section5 h3 span{
+    font-family: poppins;
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.section5 h5 {
+    font-family: poppins;
+    font-weight: 600;
+    color: red;
+}
+
+.section5 p{
+    font-family: poppins;
+    font-size: 13px;
+}
+
+.section6{
+    padding: 30px;
+}
+.section6 h3{
+    margin-top: 30px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #000066;
+    padding-block-end: 20px;
+}
+
+.section6 h3 span{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.section7 h3{
+    margin-top: 30px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.section7{
+    background: url(img/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section7 h3 span{
+    font-weight: 800;
+}
+
+.section7 .section7-1{ 
+    background: #020561;
+}
+
+.section7 .section7-1 p{
+    font-family: poppins;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 25px;
+    
+}
+
+.section7 .section7-1 p span{
+    font-weight: 600;
+}
+
+.section7 img{
+    margin-top: 35px;
+    margin-block-end: 35px;
+}
+
+
+
+
+
+.section8 {
+    background: url(back/contacto.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #1f1e1e;
+    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+
+.section8 .container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.section8 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section8 .logo {
+    text-align: center;
+    font-size: 3em;
+}
+
+.section8 .logo span {
+    color: #4f0eb7;
+}
+
+.section8 .contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.section8 .contact-wrapper > * {
+    padding: 1em;
+}
+
+.section8 .contact-form {
+    background: #c7c7c7e5;
+}
+
+.section8 .contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section8 .contact-form form label {
+    display: block;
+}
+
+.section8 .contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.section8 .contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.section8 .contact-form form button,
+.section8 .contact-form form input,
+.section8 .contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #fafafa;
+}
+
+.section8 .contact-info{
+    color: #fff;
+}
+.section8 .contact-form form button {
+    background: #686aeb;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.section8 .contact-form form button:hover,
+.section8 .contact-form form button:focus {
+    background: #3a0491;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+/* CONTACT INFO */
+.section8 .contact-info {
+    background: #020561e1;
+}
+
+.section8 .contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+/* LARGE SIZE */
+@media(min-width: 700px) {
+    .section8 {
+        padding: 0 4em;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+}
+
+footer{
+    background: #330099;
+    color: #fff;
+    padding: 20px;
+}
+
+footer .container{
+    margin-top: 30px;
+}
+
+footer ul li{
+    text-decoration: none;
+}
+footer li{
+    padding: 5px;
+}
+
+footer ul h5{
+    margin-top: 20px;
+}
+
+footer .redes i{
+    padding: 5px;
+    font-size: 30px;
+    color: #fff;
+    
+}
+

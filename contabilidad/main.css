@@ -1,0 +1,174 @@
+*{
+    font-family: poppins;
+}
+
+body{
+    font-family: Poppins;
+}
+
+
+.container{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.section1{
+    background-color: #139202;
+    color: #fff;
+    padding: 11px;
+}
+
+.section1 h6{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.section1 i{
+    font-size: 20px;
+    padding: 5px;
+    color: #fff;
+}
+
+
+
+.section3{
+    background: url(back/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section3 img{
+    width: 90%;
+    
+}
+
+.section3 h1{
+    padding-top: 31%;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.section3 h2{
+    font-size: 50px;
+    font-weight: 800;
+    color: #fff;
+}
+
+button{
+    
+    height: 60px;
+    width: 190px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #0d9900;
+    border-color: #ffffff;
+    border-width: 3px; 
+    box-shadow: 10px 10px 10px rgba(0, 00, 0, 0.4);   
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #0d9900;
+    border-color: #0d9900;
+    font-weight: 600;
+    box-shadow: 10px 10px 10px rgba(43, 42, 42, 0.4);
+    transition-duration: 1s;
+}
+
+
+.section4{
+    margin-top: 5%;
+
+}
+
+.section4 h3{
+    color: #0d9900;    
+    font-weight: 600;
+}
+
+.section4 ul li{
+    color: #444444;
+    padding: 1%;
+    text-align: left;
+}
+
+.section4 img{
+    width: 90%;
+    
+}
+
+.section4 .curricula h3{
+    color: #009926;    
+    font-weight: 600;
+}
+
+.section5{
+    background: linear-gradient(70deg, rgb(1, 177, 59), rgb(3, 121, 33));
+}
+
+
+.section5 img{
+    width: 90%;
+    
+}
+.section5 h3{
+    padding: 20px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.section6 img{
+    width: 100%;
+}
+
+
+.section6{
+    background-color: #fff;
+    background: url(back/fondo2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+
+footer{
+    background: #016d18;
+    color: #fff;
+    padding: 20px;
+}
+
+footer .container{
+    margin-top: 30px;
+}
+
+footer ul li{
+    text-decoration: none;
+}
+footer li{
+    padding: 5px;
+}
+
+footer ul h5{
+    margin-top: 20px;
+}
+
+footer .redes i{
+    padding: 5px;
+    font-size: 30px;
+    color: #fff;
+    
+}
+
