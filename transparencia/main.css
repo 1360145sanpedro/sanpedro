@@ -1,0 +1,88 @@
+body{
+    font-family: Poppins;
+}
+
+.section1{
+    background-color: #330099;
+    color: #fff;
+    padding: 11px;
+}
+
+.section1 h6{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.section1 i{
+    font-size: 20px;
+    padding: 5px;
+    color: #fff;
+}
+.section4 h3{
+    font-family: poppins;
+    color: red;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.section5{
+    background: linear-gradient(to right, #330099, #1c0252);
+}
+
+.section5 h3{
+    font-family: poppins;
+    color: #fff;
+    margin-top: 30px;
+    text-align: left;
+    font-weight: 200;
+}
+
+.section5 h3 span{
+    font-family: poppins;
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.section5 h5 {
+    font-family: poppins;
+    font-weight: 600;
+    color: red;
+}
+
+.section5 p{
+    font-family: poppins;
+    font-size: 13px;
+}
+
+footer{
+    background: #330099;
+    color: #fff;
+    padding: 20px;
+}
+
+footer .container{
+    margin-top: 30px;
+}
+
+footer ul li{
+    text-decoration: none;
+}
+footer li{
+    padding: 5px;
+}
+
+footer ul h5{
+    margin-top: 20px;
+}
+
+footer .redes i{
+    padding: 5px;
+    font-size: 30px;
+    color: #fff;
+    
+}
+
